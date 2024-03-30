@@ -1,0 +1,50 @@
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    text-align: center;
+}
+
+.flex-header{
+    background-color:rgb(227, 216, 216);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.flex-maincontainer{
+    display: flex;
+    flex:1;
+}
+
+.flex-sidenavbar{
+    background-color:rgb(227, 216, 216);
+    padding: 30px;
+    flex:1;
+}
+
+.flex-article{
+
+    background-color:rgb(227, 216, 216);
+    padding: 40px;
+    flex:3;
+    text-align: right;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 85%;
+    height: 90%;
+}
+
+#dropdown_select{
+    width: 22%;
+}

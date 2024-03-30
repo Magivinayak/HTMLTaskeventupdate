@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event update page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+
+        <header class="flex-header">Event 1
+            <p><h3>Numberof seats available : 23 </h3></p>
+        </header>
+
+        <main class="flex-maincontainer">
+            
+            <nav class="flex-sidenavbar">
+
+                <img id= "imagetag" src="./seating.png" alt="image">
+            </nav>
+            <article class="flex-article">Main content
+
+                <form class="mainform">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" ><br><br>          
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="phone">Phone NO:</label>
+                    <input type="number" id="phone" name="phone"><br><br>
+
+                    <label for="dropdown_select">Number of seats:</label>
+                        <select id="dropdown_select" name="dropdown_select">
+                            <option value="option1">1</option>
+                            <option value="option2" selected>2</option>
+                            <option value="option3">3</option>
+                            <option value="option3">4</option>
+                        </select><br><br>
+    
+
+                    <label for="name2">Name of Attendee 2:</label>
+                    <input type="text" id="name2" name="name2" ><br><br> 
+
+                    <div class="button-container">
+                        <button style="width: 130px;">Submit</button>
+                        <button style="width: 130px;">Cancel</button>
+                      </div>
+
+                </form>
+            </article>    
+        </main>
+    </section>
+</body>
+</html>
